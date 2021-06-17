@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>111學年度招生資訊</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="container">
+        <div style="text-align: center;">
+            <img src="img/logo.png" alt="" width="100">
+            <br>
+            <h1>向日葵幼兒園</h1>
+        </div>
+        <hr>
+
+        <ul class="navstyle h4">
+            <li >
+                <a class="active" href="../news.html">最新消息</a>
+            </li>
+
+            <li class="nav-item">
+                <a class=" dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                    aria-expanded="false">園所資訊</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="../idea.html">創校理念</a>
+                    <a class="dropdown-item" href="../imformation.html">園所環境</a>
+                    <a class="dropdown-item" href="../teacher.html">師資陣容</a>
+                </div>
+            </li>
+
+            <li>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                    aria-expanded="false">課程介紹</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="../intro.html">課程介紹</a>
+                    <a class="dropdown-item" href="../chara.html">教學特色</a>
+                    <a class="dropdown-item" href="../class.html">開設班別</a>
+                </div>
+            </li>
+
+            <li>
+                <a  href="../AdmissionsInformation.html">招生相關</a>
+            </li>
+
+            <li>
+                <a href="../gallery.html">活動相簿</a>
+            </li>
+
+            <li>
+                <a href="../about.html">聯絡我們</a>
+            </li>
+        </ul>
+        <hr>
+        
+        <br>
+        <br>
+        <br>
+
+        <h1>111學年度招生已開始</h1>
+        <hr>
+        <p class="h5">報名時間為2021/04/14開始至2021/08/10</p>
+        <br>
+        <p>點擊下方按鈕進行報名</p>
+        <br>
+        <a class="btn btn-primary" href="../SingUp.html" role="button">報名</a>
+
+    </div>
+
+    <div class="footer " style="position: absolute">
+        <p style="margin: auto;"><a href="about.html">關於我們</a>&nbsp;&nbsp;電話:02-23677468&nbsp;&nbsp;&nbsp;&nbsp;地址:台北市中正區永春街131巷2號之2</p>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+</body>
+
+</html>
